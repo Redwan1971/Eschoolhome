@@ -1,0 +1,325 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+a{ 
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    
+    background: #F0FFF0;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 33px;
+    color: black;
+    transition: 1s;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #21B573;
+    
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+    color: #21B573;
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success{
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 35px;
+    border: 1px solid #21B573;
+    margin: 0px 0px 0px 34px;
+    transition: 1s;
+
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success:hover{
+    color:#21B573;
+    background: transparent;
+    border:1px solid #21B573 ;
+}
+.header .navbar .navbar-nav .nav-item .btn-success:focus{
+    color:#21B573;
+    background: transparent;
+    border:1px solid #21B573 ;
+    
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    width: 100%;
+}
+.inner-banner h4{
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color:#FD511A;
+    margin: 0px 0px 20px;
+    
+
+}
+.inner-banner h1{
+    font-size: 54px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color:#000;
+    margin: 0px 0px 20px;
+    
+
+}
+.inner-banner h1 span{
+    color: #21B573;
+
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 600;
+    color:#000;
+    margin: 0px 0px 20px;
+    
+
+}
+.inner-banner .btn-success{
+    padding: 11px 35px;
+    display: inline-block;
+    margin: 0px 0px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 35px;
+    border: 1px solid #000;
+    transition: 1s;
+
+}
+.inner-banner .btn-success:hover{
+    color:#21B573;
+    background: transparent;
+    border:1px solid #21B573 ;
+
+}
+.inner-banner .btn-success:focus{
+    color:#21B573;
+    background: transparent;
+    border:1px solid #21B573 ;
+
+}
+.feature{ width: 100%;
+    padding: 80px 0px;
+
+
+}
+.inner-feature{
+    width: 100%;
+     padding: 55px;
+     background: #F8FFFB;
+     text-align: center;
+     border-radius: 10px;
+     
+    
+}
+.inner-feature:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.inner-feature img{
+    width: 66px;
+    height: 86px;
+}
+    
+    
+
+
+.inner-feature h4{
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin: 20px 0px 0px;
+
+}
+.inner-feature p
+{font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    margin: 0px 0px 0px;
+}
+.courses{
+    width: 100%;
+    padding: 10px 0px 80px;
+}
+.courses .card{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 25px 20px;
+    border: 0px; 
+    border-radius: 18px;
+
+}
+.courses .card .card-body{
+    padding: 20px 0px 0px;
+}
+.courses .card .card-body .card-title{
+
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+   
+
+
+
+}
+.courses .card .card-body .card-text{
+
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    
+    text-transform: capitalize;
+    
+
+
+}
+.courses .card .card-body .btn-success{
+    padding: 11px 30px;
+    display: inline-block;
+    margin: 0px 0px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 35px;
+    border: 1px solid #21B573;
+    transition: 1s;
+
+}
+.courses .card .card-body .btn-success:hover{
+    color:#21B573;
+    background:transparent;
+    border: 1px solid #21B573;
+}
+.courses .card .card-body .btn-success:focus{
+    color:#21B573;
+    background:transparent;
+    border: 1px solid #21B573;}
+
+
+.courses h1{
+
+    font-size: 52px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color:#000;
+    text-transform: capitalize;
+    margin: 0px 0px 60px;
+    text-align: center;
+    
+}
+.card .card-body .info{
+    font-size: 14px;
+line-height: 1.7em;
+color: #000;
+font-weight: 400;
+
+
+}
+.card .card-body .info img{ 
+    width: 16px;
+    height: auto;
+    margin: 0px 5px 0px 0px;
+
+}
+.card .text-right{
+    text-align: right;
+}
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial h1{
+    ont-size: 52px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color:#000;
+    text-transform: capitalize;
+    margin: 0px 0px 60px;
+    text-align: center;
+}
+.testimonial .client-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0px 0px 0px -37px;
+}
+.testimonial p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #000;
+    margin: 20px 0px 0px;
+}
+.footer{
+    width: 100%;
+    padding: 80px 0px 10px;
+    background: #282531;
+    
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+}
+.footer .copyright{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+    text-align: center;
+}
+.footer .widget{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.footer .widget ul{
+    display: block;
+}
+.footer .widget ul li{
+    list-style: none;
+    display: block;
+}
+.footer .widget ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #fff;
+    margin: 0px 0px 5px;
+
+}
+
+.footer .widget ul li .active{
+    font-weight: 700;
+}
+.footer .widget ul li a:hover{
+    color: #21B573;
+}
